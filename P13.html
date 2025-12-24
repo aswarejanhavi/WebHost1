@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Demonstration</title>
+
+    <!-- INTERNAL CSS -->
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+        }
+
+       
+
+        .form-box {
+            width: 350px;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px 0;
+        }
+    </style>
+
+    <!-- EXTERNAL CSS FILE LINK -->
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <h2>LOGIN PAGE</h2>
+
+    <div class="form-box">
+
+        <form>
+
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Password:</label>
+            <input type="password" placeholder="Enter password">
+
+            <!-- INLINE CSS -->
+            <input type="submit" value="Submit"
+            style="background-color: green; color: white; font-size: 16px; border: none; padding: 10px;">
+
+        </form>
+
+
+
+
+    </div>
+
+</body>
+</html>
